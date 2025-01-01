@@ -94,7 +94,7 @@ export default function MusicPlayer() {
     };
   }, [isDragging]);
 
-  // Formatea tiempo en minutos y segundos
+  // Formatea el tiempo en minutos y segundos
   const formatTime = (time) => {
     if (isNaN(time)) return <span>0:00</span>;
     const minutes = Math.floor(time / 60);

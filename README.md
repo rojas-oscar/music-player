@@ -8,7 +8,7 @@
 1. Clone the repository:
 
    ```sh
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/rojas-oscar/music-player
    ```
 
 2. Install the dependencies:
