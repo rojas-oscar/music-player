@@ -7,9 +7,18 @@ import '../styles/styles.css';
 
 // Importa los archivos de audio locales.
 import audio1 from '../assets/music/1.mp3';
+import audio10 from '../assets/music/10.mp3';
+import audio11 from '../assets/music/11.mp3';
+import audio12 from '../assets/music/12.mp3';
+import audio13 from '../assets/music/13.mp3';
 import audio2 from '../assets/music/2.mp3';
 import audio3 from '../assets/music/3.mp3';
 import audio4 from '../assets/music/4.mp3';
+import audio5 from '../assets/music/5.mp3';
+import audio6 from '../assets/music/6.mp3';
+import audio7 from '../assets/music/7.mp3';
+import audio8 from '../assets/music/8.mp3';
+import audio9 from '../assets/music/9.mp3';
 
 // Lista de canciones
 const musics = [
@@ -26,6 +35,12 @@ const musics = [
     imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
   },
   {
+    url: audio7,
+    title: 'Success - David Goggins',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
     url: audio2,
     title: 'David Goggins Motivation',
     tags: ['motivation'],
@@ -33,10 +48,58 @@ const musics = [
   },
   {
     url: audio4,
-    title: 'Go Fock Yourself - David Goggins Motivational Edit (4k)',
+    title: 'Go Fock Yourself - David Goggins',
     tags: ['motivation'],
     imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
   },
+  {
+    url: audio5,
+    title: 'Give Them Hell - David Goggins',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio6,
+    title: 'Memory Reboot - David Goggins',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio8,
+    title: 'Its a Long Day...',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio9,
+    title: 'Grind Never Ends - David Goggins',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio10,
+    title: 'Just Doing - David Goggins',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio11,
+    title: 'EXPOSES Social Media Haters - DG',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio12,
+    title: 'Is David Goggins Happy?',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  },
+  {
+    url: audio13,
+    title: 'You Will Be Successful  David Goggins',
+    tags: ['motivation'],
+    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
+  }
 ];
 
 export default function MusicPlayer() {
