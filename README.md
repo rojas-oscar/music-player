@@ -1,5 +1,7 @@
 # A minimalist music player developed with React.
 
+![Music Player Cover](public/image.png)
+
 ## Installation
 
 1. Clone the repository:

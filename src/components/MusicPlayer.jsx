@@ -194,7 +194,7 @@ export default function MusicPlayer() {
     <div className="music-player">
       {/* Enlace a GitHub */}
       <div className="github-link">
-        <a href="https://github.com/repo" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/rojas-oscar/music-player" target="_blank" rel="noopener noreferrer">
           <GitHubIcon className="GitHubIcon" style={{ fontSize: '40px' }} />
         </a>
       </div>
