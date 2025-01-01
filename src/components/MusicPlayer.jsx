@@ -32,28 +32,10 @@ const musics = [
     imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
   },
   {
-    url: 'https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3',
-    title: 'Madza - Chords of Life',
-    tags: ['house'],
-    imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg',
-  },
-  {
     url: audio4,
     title: 'Go Fock Yourself - David Goggins Motivational Edit (4k)',
     tags: ['motivation'],
     imagen: 'https://i1.sndcdn.com/artworks-kbX4ANxvPxXtxTnn-MbY3PA-t500x500.jpg'
-  },
-  {
-    url: 'https://audioplayer.madza.dev/Madza-Late_Night_Drive.mp3',
-    title: 'Madza - Late Night Drive',
-    tags: ['dnb'],
-    imagen: '',
-  },
-  {
-    url: 'https://audioplayer.madza.dev/Madza-Persistence.mp3',
-    title: 'Madza - Persistence',
-    tags: ['dubstep'],
-    imagen: '',
   },
 ];
 
