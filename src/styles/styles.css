@@ -49,10 +49,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow-y: scroll;
+  overflow: hidden; /* Cambiado de overflow-y: scroll a overflow: hidden */
 }
 
-/* Estilo del scrollbar principal */
+/* Estilo del scrollbar principal  */
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -95,7 +95,8 @@ h1 {
 .progress-bar {
   width: 100%;
   height: 10px;
-  background: var(--color-blue);
+  /* background: var(--color-blue); */
+  background-color: #000;
   border-radius: 5px;
   margin: 20px 0;
   position: relative;
@@ -104,12 +105,13 @@ h1 {
 
 .progress {
   height: 100%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(58, 155, 180, 1) 0%,
     rgba(29, 79, 253, 1) 50%,
     rgba(151, 69, 252, 1) 100%
-  );
+  ); */
+  background-color: var(--color-blue);
   border-radius: 5px;
   transition: width 0.2s ease-in-out;
 }
@@ -160,12 +162,13 @@ button:hover {
 .progress-thumb {
   width: 16px;
   height: 16px;
-  background: rgba(0, 0, 255, 0.603);
-  border: 2px solid blue;
+  /* background: rgba(0, 0, 255, 0.603); */
+  background-color: var(--color-blue);
+  /* border: 2px solid blue; */
   border-radius: 50%;
   position: absolute;
   top: 50%;
-  transform: translate(-40%, -50%);
+  transform: translate(-60%, -50%);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   cursor: grab;
 }
@@ -191,7 +194,7 @@ button:hover {
 
 .song-list {
   margin-top: 20px;
-  max-height: 300px;
+  max-height: 250px;
   overflow-y: auto;
   padding: 5px;
   width: 100%;
@@ -199,7 +202,7 @@ button:hover {
 
 /* Estilo del scrollbar de la lista de canciones */
 .song-list::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 
 .song-list::-webkit-scrollbar-track {
@@ -348,7 +351,7 @@ button:hover {
     height: 40px;
   }
   .song-item-info h3 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .song-item-info p {
     font-size: 10px;
@@ -359,4 +362,32 @@ button:hover {
     top: 10px;
     right: 10px;
   }
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.upload-form input[type="text"],
+.upload-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.upload-form button {
+  padding: 10px;
+  border: none;
+  background-color: var(--color-blue);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.upload-form button:hover {
+  background-color: #007acc;
 }
